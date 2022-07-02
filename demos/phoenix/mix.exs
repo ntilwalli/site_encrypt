@@ -4,7 +4,7 @@ defmodule PhoenixDemo.MixProject do
   def project do
     [
       app: :phoenix_demo,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -20,9 +20,9 @@ defmodule PhoenixDemo.MixProject do
 
   defp deps do
     [
-      {:phoenix, "~> 1.5"},
-      {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.2"},
+      {:phoenix, "~> 1.6"},
+      {:jason, "~> 1.3"},
+      {:plug_cowboy, "~> 2.5"},
       {:site_encrypt, path: "../.."}
     ]
   end
